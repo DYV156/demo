@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'The Great Outdoors';
+    src: url('TheGreatOutdoors-Regular.eot');
+    src: url('TheGreatOutdoors-Regular.eot?#iefix') format('embedded-opentype'),
+        url('TheGreatOutdoors-Regular.woff2') format('woff2'),
+        url('TheGreatOutdoors-Regular.woff') format('woff'),
+        url('TheGreatOutdoors-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bolt Rounded';
+    src: url('Bolt-Rounded.eot');
+    src: url('Bolt-Rounded.eot?#iefix') format('embedded-opentype'),
+        url('Bolt-Rounded.woff2') format('woff2'),
+        url('Bolt-Rounded.woff') format('woff'),
+        url('Bolt-Rounded.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RollerscriptW03-Rough';
+    src: url('RollerscriptW03-Rough.eot');
+    src: url('RollerscriptW03-Rough.eot?#iefix') format('embedded-opentype'),
+        url('RollerscriptW03-Rough.woff2') format('woff2'),
+        url('RollerscriptW03-Rough.woff') format('woff'),
+        url('RollerscriptW03-Rough.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+

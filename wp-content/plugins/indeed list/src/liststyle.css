@@ -1,0 +1,92 @@
+.job_listings { 
+	width: 100%;
+    float: left;
+}
+.job_listings ul.list_table { margin: 0;
+    padding: 0;
+    list-style: none;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background: #fff;
+	    width: 100%;
+    float: left;}
+.job_listing { width: 100%;
+    float: left;
+	border-bottom: 1px solid #ccc;
+    margin: 0;
+    padding: 1em;
+    position: relative;
+	}
+.job_listing ul { list-style: none;}
+.job_listing-about{ width: 94%;   float: left;}
+.job_listing-logo {    width: 6%;vertical-align: middle; float: left;}
+.job_listing-logo img {     max-width: 100%;}
+.job_listing-position  { width: 50%; float: left;  padding: 0 8px;  margin: 0;}
+.job_listing__column { vertical-align: middle;  display: inline-block;    margin-bottom: 0;}
+.job_listing-title{ font-size: 16px; font-weight: 600;}
+.job_listing-location { width: 20%; float: left;  margin: 0;}
+.job_listing-meta { width: 30%;  float: left;}
+.job_listing_description{width: 100%;  float: left;  padding-left: 60px;}
+.job_listing-location:before, .resume-location:before, .resume_listing-location:before { content: "\f041"; font-family: FontAwesome; font-size: 22px;  vertical-align: middle;  margin: -1px 4px 0 0;}
+
+#contact { 
+  -webkit-user-select: none; /* Chrome/Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
+  float: right;
+  width: 100px; 
+  height: 30px; 
+  line-height: 30px;
+  background: teal;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid white;
+}
+
+#contact:hover { background: #666; }
+#contact:active { background: #444; }
+
+#contactForm { 
+  display: none;
+
+  border: 6px solid salmon; 
+  padding: 2em;
+  width: 400px;
+  text-align: center;
+  background: #fff;
+  position: fixed;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%)
+  
+}
+
+
+input[type="text"], input[type="email"] { margin: 10px 0;} 
+input[type="submit"] { padding: 10px;}
+input, textarea { 
+  margin: .8em auto;
+  font-family: inherit; 
+  text-transform: inherit; 
+  font-size: inherit;
+  
+  display: block; 
+  width: 280px; 
+  padding: .4em;
+}
+textarea { height: 80px; resize: none; }
+
+.formBtn { 
+  width: 140px;
+  display: inline-block;
+  
+  background: teal;
+  color: #fff;
+  font-weight: 100;
+  font-size: 1.2em;
+  border: none;
+  height: 30px;
+}
